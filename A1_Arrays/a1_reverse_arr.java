@@ -1,3 +1,4 @@
+//WAP to reverse an array
 import java.util.Scanner;
 
 public class a1_reverse_arr {

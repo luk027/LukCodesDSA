@@ -1,3 +1,4 @@
+//WAP to find maximum and minimum value from an array.
 public class a2_find_max_and_min {
 
     public static void main(String[] args) {
