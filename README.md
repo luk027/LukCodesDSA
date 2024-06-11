@@ -28,7 +28,8 @@ This repository contains:
 
 ## Recommended Youtubes Channel
 
-[ Algorithms by Abdul Ba ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+[ Abdul Ba ](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+[ Dinesh Varyani ](https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d)
 
 ## Recommended Books
 
