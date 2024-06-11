@@ -1,21 +1,27 @@
 package Miscellaneous;
 
-import java.util.Scanner;
-
 public class SumOfNaturalNumber {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter a positive integer: ");
-        int n = sc.nextInt();
-        sc.close();
+        double now = System.currentTimeMillis();
+        int n = 99999;
 
         int answer = sumOf_N_NaturalNumber(n);
-        System.out.printf("Sum of %d is: %d", n ,answer);
+        System.out.println("sum is: "+answer);
+        System.out.println("Time taken: "+(System.currentTimeMillis() - now)+ " millisecs.");
     }
     
     public static int sumOf_N_NaturalNumber(int n)
     {
         return n*(n+1)/2;
     }
+
+    // public static int sumOf_N_NaturalNumber(int n)
+    // {
+    //     int sum = 0;
+    //     for(int i=0;i<=n;i++)
+    //     {
+    //         sum+=i;
+    //     }
+    //     return sum;
+    // }
 }
