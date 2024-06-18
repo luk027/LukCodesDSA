@@ -1,16 +1,21 @@
 package Miscellaneous;
 
 public class PrimeNumber {
+
+    public static boolean isPrime(int num){
+        if(num == 0 || num ==1 ){
+            return false;
+        }
+        for(int i=2;i<=Math.sqrt(num);i++){
+            if(num%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
     public static void main(String args[]){
-    //    int[] arr = new int[100];
 
-    //    for(int i=0; i<100; i++){
-    //         arr[i] = i+1;
-    //    }
-    
-    // int[] arr = {5,6,7,8,9,10,11};
-
-        
-       
+        String result = isPrime(1) ? "Is Prime" : "Not Prime";
+        System.out.println(result);
     }
 }   
