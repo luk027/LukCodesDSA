@@ -1,3 +1,0 @@
-Array
- -Insertion(Head, middel, End)
- -deletion(Head, middel, End)
