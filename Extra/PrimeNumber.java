@@ -1,4 +1,4 @@
-package Miscellaneous;
+package Extra;
 
 public class PrimeNumber {
 
