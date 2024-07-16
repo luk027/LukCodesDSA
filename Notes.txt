@@ -1,0 +1,22 @@
+Sorting
+    - selection
+    - Insertion
+    - merge
+    - quick
+
+Stack
+
+Queue
+
+Recursion
+
+Backtracking
+
+Trees
+
+Graph
+
+Greedy
+
+Dynamic Programming
+

@@ -1,5 +1,6 @@
 package A3_Searching;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinarySearch {
@@ -30,9 +31,8 @@ public class BinarySearch {
         Scanner sc = new Scanner(System.in);
 
         int[] arr = {8,12,45,53,86,87,90};
-        for (int i : arr) {
-            System.out.print("["+i+"] ");
-        }
+        System.out.println(Arrays.toString(arr));
+
 
         System.out.println("\nEnter element to search: ");
         int data = sc.nextInt();

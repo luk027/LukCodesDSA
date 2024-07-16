@@ -1,4 +1,5 @@
 package A4_Sorting;
+import java.util.Arrays;
 import java.util.Random;
 
 public class BubbleSort {
@@ -32,15 +33,12 @@ public class BubbleSort {
         }
 
         System.out.print("Before sort: ");
-        for (int i : arr) {
-            System.out.print("["+i+"] ");
-        }
+        System.out.println(Arrays.toString(arr));
 
         int[] result = bubbleSort(arr);
 
         System.out.print("\nBubble sort: ");
-        for (int i : result) {
-            System.out.print("["+i+"] ");
-        }
+        System.out.println(Arrays.toString(result));
+
     }    
 }

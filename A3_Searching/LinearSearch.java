@@ -1,4 +1,5 @@
 package A3_Searching;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LinearSearch {
@@ -15,9 +16,8 @@ public class LinearSearch {
         Scanner sc = new Scanner(System.in);
 
         int[] arr = {12,35,74,22,90,44,2,87,61};
-        for (int i : arr) {
-            System.out.print("["+i+"] ");
-        }
+        System.out.println(Arrays.toString(arr));
+
         
         System.out.print("\nEnter element to search: ");
         int data = sc.nextInt();
