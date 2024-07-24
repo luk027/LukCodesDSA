@@ -3,6 +3,7 @@ Sorting
     - Insertion
     - merge
     - quick
+    - shell
 
 Stack
 
